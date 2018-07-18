@@ -9,6 +9,9 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@3.4.0/dist/scrollreveal.min.js">
+
+  </script>
   <link rel="stylesheet" href="animate.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script> $(document).ready(function(){
@@ -60,14 +63,14 @@
 
 
   <div class="bkimg">
-    <div id="about">
-      <h1 class="about">
+    <div id="about ">
+      <h1 class="about anim">
         WHO AM I ?
       </h1>
-      <div  class="dp">
+      <div  class="dp anim">
 
       </div>
-      <div id="content" >
+      <div id="content" class="anim" >
           OH, Hey there! This is actually just my first adventure in the field of web development.
            I am new at this and I see this as my first step towards something bigger and something much more relevent. I'll be looking forward to hear from you, your feedbacks. Feel free to contact me across any of my social media accounts.
 
@@ -77,28 +80,33 @@
   </div>
 
   <div id="skills" class="skills">
-    <h5 class="about" style="padding-top:50px" >
+    <h5 class="about anim" style="padding-top:50px" >
     THINGS I KNOW
     </h5>
     <div class="content2">
-      <img ng-src = "python.png" alt="" class="python" >
-      <img ng-src = "c++.png" alt="" class="c" >
-      <img ng-src = "html.png" alt="" class="html" >
-      <img ng-src = "css.png" alt="" class="css" >
-      <img ng-src = "angular.png" alt="" class="angular" >
+      <img ng-src = "python.png" alt="" class="python anim" >
+      <img ng-src = "c++.png" alt="" class="c anim" >
+      <img ng-src = "html.png" alt="" class="html anim" >
+      <img ng-src = "css.png" alt="" class="css anim" >
+      <img ng-src = "angular.png" alt="" class="angular anim" >
     </div>
   </div>
   <div  id="Contact" class="contactdiv" >
-    <h5 class="about"> CATCH ME HERE</h5>
+    <h5 class="about anim"> CATCH ME HERE</h5>
     <div class="contact" >
-    <a class="email" href="mailto:johanissac@gmail.com"></a>
-    <a class="instagram" href="https://www.instagram.com/johanissac/"></a>
-    <a class="linkedin" href="https://in.linkedin.com/in/johan-issac-b8a316150"></a>
-    <a class="facebook" href="https://www.facebook.com/johanissac"></a>
+    <a class="email anim" href="mailto:johanissac@gmail.com"></a>
+    <a class="instagram anim" href="https://www.instagram.com/johanissac/"></a>
+    <a class="linkedin anim" href="https://in.linkedin.com/in/johan-issac-b8a316150"></a>
+    <a class="facebook anim" href="https://www.facebook.com/johanissac"></a>
   </div>
 
   </div>
   <footer class="foot">2018</footer>
+  <script type="text/javascript">
+      window.sr = ScrollReveal();
+      sr.reveal('.anim');
+
+  </script>
 
 
 </body>
