@@ -385,7 +385,7 @@ body{
   }
   .intro{
     width: 100%;
-    height: 550px;
+    height: 400px;
     background-image: url(img2.jpg);
     background-position: left;
     background-size: cover;
