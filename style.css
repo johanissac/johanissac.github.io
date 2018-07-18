@@ -457,6 +457,10 @@ body{
   .contactdiv h5{
     margin-top: 200px;
   }
+  .foot{
+  height: 50px;
+  padding-top: 20px;
+font-size: 10px;}
 }
 @media screen and (max-width:514px) {
   .nav li{
